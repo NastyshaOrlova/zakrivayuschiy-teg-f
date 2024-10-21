@@ -20,7 +20,8 @@
   align-items: center;
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-variation-settings: var(--main-weight);
+  font-variation-settings: "wght" 400;
+  font-size: var(--main-weight);
   background-color: var(--bg-color);
   color: var(--accent-color);
   background-image: var(--bg-image);
@@ -167,6 +168,7 @@
 
 .card__title {
   font-family: var(--main-font);
+  font-variation-settings: "wght" 700;
   font-size: 18px;
   line-height: 21.78px;
   padding: 5px 7px 4px 10px;
@@ -188,6 +190,7 @@
 .lable {
   display: block;
   position: absolute;
+  z-index: 1;
   text-transform: uppercase;
   font-family: var(--accent-font);
   font-size: 14px;

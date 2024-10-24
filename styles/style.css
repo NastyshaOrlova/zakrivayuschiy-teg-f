@@ -441,6 +441,7 @@ dialog:not([open]) {
 .button-basic {
   position: relative;
   border: 2px solid var(--accent-color);
+  transition: box-shadow 0.5s ease;
 }
 
 .button__text {
@@ -455,7 +456,6 @@ dialog:not([open]) {
 .button-basic:focus {
   outline: none;
   box-shadow: 2px 2px var(--accent-color);
-  transition: box-shadow 0.5s ease;
 }
 
 .button-basic::before {
